@@ -1,7 +1,7 @@
 {
   "name": "erosion-game",
   "version": "1.0.0",
-  "description": "Minimalist survival strategy game",
+  "description": "Bullet Hell + Tower Defense gives the feeling of the gradual but unstoppable power of moving water",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
