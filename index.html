@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erosion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-arena" id="gameArena">
+            <svg id="connection-lines" style="position: absolute; width: 100%; height: 100%; pointer-events: none;"></svg>
+            <div id="player"></div>
+        </div>
+        <div class="hud">
+            <div class="health-container">Health: <span id="healthValue">100</span></div>
+            <div class="structure-counts">
+                Walls: <span id="wallCount">0</span>
+                Buildings: <span id="buildingCount">0</span>
+                Towers: <span id="towerCount">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
